@@ -50,3 +50,13 @@ model.fit( df[['Height','Gender']], df['Weight'] )
 print(f'Współczynnik kierunkowy: {model.coef_}\nWyraz wolny: {model.intercept_}')
 print(f'Weight = Height * {model.coef_[0]} + Gender * {model.coef_[1]} + {model.intercept_}')
 
+# sprawdźmy
+print(f'Facet, 160cm wzrostu waży: {model.predict([[160, 0]])}')
+print(f'Kobieta, 160cm wzrostu waży: {model.predict([[160, 1]])}')
+print(f'Kobieta, 200cm wzrostu waży: {model.predict([[200, 1]])}')
+print(f'Facet, 100cm wzrostu waży: {model.predict([[100, 0]])}')
+print(f'Kobieta, 100cm wzrostu waży: {model.predict([[100, 1]])}')
+
+
+
+
