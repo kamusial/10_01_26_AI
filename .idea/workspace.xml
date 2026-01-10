@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17f5996a-b939-4db2-b201-afd4836ffe32" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/3_regresja_logistyczna.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_KNN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/diabetes.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iris.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/iris.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +41,7 @@
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;Python.1_regresja_liniowa.executor&quot;: &quot;Run&quot;,
     &quot;Python.2_regresja_liniowa.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4_KNN.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -50,6 +54,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\student-wroclaw\Desktop\10_01_26_AI\data" />
       <recent name="C:\Users\student-wroclaw\Desktop\10_01_26_AI" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\student-wroclaw\Desktop\10_01_26_AI\data" />
     </key>
   </component>
   <component name="RunManager">
