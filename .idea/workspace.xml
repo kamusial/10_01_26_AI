@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="17f5996a-b939-4db2-b201-afd4836ffe32" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_regresja_logistyczna.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_regresja_logistyczna.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cukrzyca.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5_drzewo_decyzyjne.py" beforeDir="false" afterPath="$PROJECT_DIR$/5_drzewo_decyzyjne.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +41,7 @@
     "Python.2_regresja_liniowa.executor": "Run",
     "Python.3_regresja_logistyczna.executor": "Run",
     "Python.4_KNN.executor": "Run",
+    "Python.5_drzewo_decyzyjne.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
