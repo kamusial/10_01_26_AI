@@ -8,7 +8,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix
 
-X, y = make_circles(n_samples=100, factor=0.6, noise=0.1)
+X, y = make_circles(n_samples=1000, factor=0.6, noise=0.2)
 # print(X)
 # print(y)
 plt.scatter(X[:, 0], X[:, 1], c=y)
@@ -29,10 +29,14 @@ print(model.score(X_test, y_test))
 print(pd.DataFrame(confusion_matrix(y_test, model.predict(X_test))))
 
 print('\nDrzewo decyzyjne')
-model = DecisionTreeClassifier(max_depth=3, min_samples_split=5)
+model = DecisionTreeClassifier(max_depth=300, min_samples_split=2)
 model.fit(X_train, y_train)
 print(model.score(X_test, y_test))
 print(pd.DataFrame(confusion_matrix(y_test, model.predict(X_test))))
+# granice decyzyjne
+from mlxtend.plotting import plot_decision_regions
+plot_decision_regions(X, y, model)
+plt.show()
 
 print('\nSVC')
 # kernel{‘linear’, ‘poly’, ‘rbf’, ‘sigmoid’, ‘precomputed’}
@@ -40,3 +44,4 @@ model = SVC()
 model.fit(X_train, y_train)
 print(model.score(X_test, y_test))
 print(pd.DataFrame(confusion_matrix(y_test, model.predict(X_test))))
+
