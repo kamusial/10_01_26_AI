@@ -34,7 +34,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 # min_samples_split int or float, default=2
 # max_features int, float or {“sqrt”, “log2”}, default=None
 
-model = DecisionTreeClassifier(criterion='gini', max_depth=6, min_samples_split=2)
+model = DecisionTreeClassifier(criterion='gini', max_depth=10, min_samples_split=2)
 model.fit(X_train, y_train)
 print(model.score(X_test, y_test))
 print(pd.DataFrame(confusion_matrix(y_test, model.predict(X_test))))
