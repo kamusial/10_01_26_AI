@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17f5996a-b939-4db2-b201-afd4836ffe32" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/4_KNN.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/diabetes.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/iris.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/iris.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_regresja_logistyczna.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_regresja_logistyczna.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cukrzyca.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,20 +35,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.1_regresja_liniowa.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2_regresja_liniowa.executor&quot;: &quot;Run&quot;,
-    &quot;Python.4_KNN.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/student-wroclaw/Desktop/10_01_26_AI/data&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.1_regresja_liniowa.executor": "Run",
+    "Python.2_regresja_liniowa.executor": "Run",
+    "Python.3_regresja_logistyczna.executor": "Run",
+    "Python.4_KNN.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/student-wroclaw/Desktop/10_01_26_AI/data",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\student-wroclaw\Desktop\10_01_26_AI\data" />
